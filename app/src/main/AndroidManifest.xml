@@ -16,6 +16,11 @@
             android:name=".MediaPlayerService"
             android:enabled="true"
             android:exported="false"></service>
+        <receiver android:name=".LowBatteryReceiver"
+            android:exported="true"
+            android:enabled="true">
+
+        </receiver>
 
         <activity
             android:name=".MainActivity"
